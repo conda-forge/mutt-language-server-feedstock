@@ -1,4 +1,4 @@
-{% set version = "0.0.14" %}
+{% set version = "0.0.17" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mutt-language-server/mutt_language_server-{{ version }}.tar.gz
-  sha256: 549656224df18b3032931034e8e8366df38c4cf3eedcae1f9ace87aaeccdf33c
+  sha256: d8d2fe5df4807b7323745532799cafe8298b06c6312476fa932d822a65ac19ed
 
 build:
   entry_points:
