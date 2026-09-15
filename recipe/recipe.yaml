@@ -26,6 +26,7 @@ requirements:
     - setuptools-scm >=6.2
     - setuptools-generate >=0.0.6
     - pip
+    - uv-build
   run:
     - python >=${{ python_min }}
     - lsp-tree-sitter
